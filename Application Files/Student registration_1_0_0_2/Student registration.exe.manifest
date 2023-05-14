@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Student registration.exe" version="1.0.0.2" publicKeyToken="c480bab7d3447734" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Student registration" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Student registration.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Student registration.exe" size="133664">
+      <assemblyIdentity name="Student registration" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>og0fE0HE7C+EI4gE9KEUbB7/eGt82c9PsiwhGqURPoI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Student registration.exe.config" size="578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6WcK9VvvjuNdaH5bPeXUoo5wzGe61VLnQ/FXJdrk6ZE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5AUPQO3\Ojeniyi Rukoyah" issuerKeyHash="8ade6c98f1677e14208c57b595932aab93a74e15" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>u9jhrHo0yHmMpF29ng+zV5IamOJUi95GXsSh67QZ6r4=</DigestValue></Reference></SignedInfo><SignatureValue>CUyEa9OEx4LlENEYb1w9WUOlIGFFUMRSMOpxVFDWZJzW5BZnGxuNyLEXClvPhTq4cop0M6teGtYBlRVZnvW90bVpxzer11dgeKznh1TL0HzHKyNY8Mt1hQKSlCKVruqNhRzXEsocJva8vgar/f2A2g+9Wv85SKVG/va9zp6CpaY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nw4PBTjqJJmCiBqzlwaGkc1DMGCzT+n3XvNCJqMiu9Kqy2+BiUOYOAmLjXLcYhhL4seBUppqElZUXwclt+C87+siR13M7jNq1LsLkjhujqDXzmtUMT7+7vyy6jvuHOJO7z3StRIqjyTePhZYzPGqFPmCNPpOPyMozxZIDVwtBm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="beea19b4eba1c45e46de8b54e2981a9257b30f9ebd5da48c79c8347aace1d8bb" Description="" Url=""><as:assemblyIdentity name="Student registration.exe" version="1.0.0.2" publicKeyToken="c480bab7d3447734" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5AUPQO3\Ojeniyi Rukoyah</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>CjvFicnEkSAz8fA7nQFtig/hNy1U69ymIXwoJ7H5LtI=</DigestValue></Reference></SignedInfo><SignatureValue>BitT4+cm6qO/+jzjXDm9qyP7wkESUGWPFvvrmxr2HZFMMKLfx5ogXCFBZ5GjDPICEFbJcYfdj253IAnFpACieI/7HCKYXY4jjPYHR8QyonckvW63TPEKqOkFNjkDinlmB1i8SAY6fhPyPmmoNGR8+E6wFAJLpIX0RwIBAYzj4Vs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nw4PBTjqJJmCiBqzlwaGkc1DMGCzT+n3XvNCJqMiu9Kqy2+BiUOYOAmLjXLcYhhL4seBUppqElZUXwclt+C87+siR13M7jNq1LsLkjhujqDXzmtUMT7+7vyy6jvuHOJO7z3StRIqjyTePhZYzPGqFPmCNPpOPyMozxZIDVwtBm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICFTCCAX6gAwIBAgIQNVEdPU2nVptFnlsjW02wiTANBgkqhkiG9w0BAQsFADBJMUcwRQYDVQQDHj4ARABFAFMASwBUAE8AUAAtADUAQQBVAFAAUQBPADMAXABPAGoAZQBuAGkAeQBpACAAUgB1AGsAbwB5AGEAaDAeFw0yMjAxMjkxMjExMzhaFw0yMzAxMjkxODExMzhaMEkxRzBFBgNVBAMePgBEAEUAUwBLAFQATwBQAC0ANQBBAFUAUABRAE8AMwBcAE8AagBlAG4AaQB5AGkAIABSAHUAawBvAHkAYQBoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfDg8FOOokmYKIGrOXBoaRzUMwYLNP6fde80ImoyK70qrLb4GJQ5g4CYuNctxiGEvix4FSmmoSVlRfByW34Lzv6yJHXczuM2rUuwuSOG6OoNfOa1QxPv7u/LLqO+4c4k7vPdK1EiqPJN4+FljM8aoU+YI0+k4/IyjPFkgNXC0GbQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFirPd6+/pG4njUxk8GyC7/sqlZFGFe04tB/w3hk3daGNllyh92lJegipuQ0SCUU8RNC8hBnKE9Iv6HQKrF0tR4BLRzS7qnbbrxL9EkE7jfMXqnv0iaOxOqxJgC5AqL0iF72Qc/dOrqjT65da4JFZnPHhAXLdYsc1yZp1uqRAC+9</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
